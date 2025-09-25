@@ -6,10 +6,12 @@ if (num % 2 === 0){
 } else {console.log ("Odd");}
 
 console.log(b % 2 === 0);
+//true means even, false means odd.
+
+
 
 let day = "4";
 let d = Number(day);
-//true means even, false means odd.
 
 switch(d) {
     case 1: console.log("It's a weekday");
